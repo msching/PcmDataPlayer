@@ -59,7 +59,7 @@
     // or more precisely:4 + (8 + SubChunk1Size) + (8 + SubChunk2Size)
     *((SInt32 *)(wavHeader + 0x04)) = pcmDataLength + 36;
     
-    // Format = 'WAVEf'
+    // Format = 'WAVE'
     wavHeader[0x08] = 'W';
     wavHeader[0x09] = 'A';
     wavHeader[0x0A] = 'V';
