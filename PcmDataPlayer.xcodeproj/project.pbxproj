@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE4EE5EA1A4BB78300852DC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4EE5E91A4BB78300852DC3 /* main.m */; };
+		DE4EE5ED1A4BB78300852DC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4EE5EC1A4BB78300852DC3 /* AppDelegate.m */; };
+		DE4EE5F01A4BB78300852DC3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4EE5EF1A4BB78300852DC3 /* ViewController.m */; };
+		DE4EE5F31A4BB78300852DC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4EE5F11A4BB78300852DC3 /* Main.storyboard */; };
+		DE4EE5F51A4BB78300852DC3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE4EE5F41A4BB78300852DC3 /* Images.xcassets */; };
+		DE4EE6041A4BB78300852DC3 /* PcmDataPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4EE6031A4BB78300852DC3 /* PcmDataPlayerTests.m */; };
+		DE4EE60E1A4BB7C000852DC3 /* pcmData in Resources */ = {isa = PBXBuildFile; fileRef = DE4EE60D1A4BB7C000852DC3 /* pcmData */; };
+		DE4EE6121A4BB7C800852DC3 /* AVAudioPlayer+PCM.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4EE6111A4BB7C800852DC3 /* AVAudioPlayer+PCM.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE4EE5FE1A4BB78300852DC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE4EE5DC1A4BB78300852DC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE4EE5E31A4BB78300852DC3;
+			remoteInfo = PcmDataPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE4EE5E41A4BB78300852DC3 /* PcmDataPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PcmDataPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE4EE5E81A4BB78300852DC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE4EE5E91A4BB78300852DC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE4EE5EB1A4BB78300852DC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE4EE5EC1A4BB78300852DC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE4EE5EE1A4BB78300852DC3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DE4EE5EF1A4BB78300852DC3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DE4EE5F21A4BB78300852DC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE4EE5F41A4BB78300852DC3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DE4EE5FD1A4BB78300852DC3 /* PcmDataPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PcmDataPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE4EE6021A4BB78300852DC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE4EE6031A4BB78300852DC3 /* PcmDataPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PcmDataPlayerTests.m; sourceTree = "<group>"; };
+		DE4EE60D1A4BB7C000852DC3 /* pcmData */ = {isa = PBXFileReference; lastKnownFileType = file; path = pcmData; sourceTree = "<group>"; };
+		DE4EE6101A4BB7C800852DC3 /* AVAudioPlayer+PCM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AVAudioPlayer+PCM.h"; sourceTree = "<group>"; };
+		DE4EE6111A4BB7C800852DC3 /* AVAudioPlayer+PCM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AVAudioPlayer+PCM.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE4EE5E11A4BB78300852DC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE4EE5FA1A4BB78300852DC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE4EE5DB1A4BB78300852DC3 = {
+			isa = PBXGroup;
+			children = (
+				DE4EE5E61A4BB78300852DC3 /* PcmDataPlayer */,
+				DE4EE6001A4BB78300852DC3 /* PcmDataPlayerTests */,
+				DE4EE5E51A4BB78300852DC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE4EE5E51A4BB78300852DC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE4EE5E41A4BB78300852DC3 /* PcmDataPlayer.app */,
+				DE4EE5FD1A4BB78300852DC3 /* PcmDataPlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE4EE5E61A4BB78300852DC3 /* PcmDataPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				DE4EE60F1A4BB7C800852DC3 /* Player */,
+				DE4EE5EB1A4BB78300852DC3 /* AppDelegate.h */,
+				DE4EE5EC1A4BB78300852DC3 /* AppDelegate.m */,
+				DE4EE5EE1A4BB78300852DC3 /* ViewController.h */,
+				DE4EE5EF1A4BB78300852DC3 /* ViewController.m */,
+				DE4EE5F11A4BB78300852DC3 /* Main.storyboard */,
+				DE4EE5F41A4BB78300852DC3 /* Images.xcassets */,
+				DE4EE5E71A4BB78300852DC3 /* Supporting Files */,
+			);
+			path = PcmDataPlayer;
+			sourceTree = "<group>";
+		};
+		DE4EE5E71A4BB78300852DC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE4EE60D1A4BB7C000852DC3 /* pcmData */,
+				DE4EE5E81A4BB78300852DC3 /* Info.plist */,
+				DE4EE5E91A4BB78300852DC3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE4EE6001A4BB78300852DC3 /* PcmDataPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE4EE6031A4BB78300852DC3 /* PcmDataPlayerTests.m */,
+				DE4EE6011A4BB78300852DC3 /* Supporting Files */,
+			);
+			path = PcmDataPlayerTests;
+			sourceTree = "<group>";
+		};
+		DE4EE6011A4BB78300852DC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE4EE6021A4BB78300852DC3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE4EE60F1A4BB7C800852DC3 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				DE4EE6101A4BB7C800852DC3 /* AVAudioPlayer+PCM.h */,
+				DE4EE6111A4BB7C800852DC3 /* AVAudioPlayer+PCM.m */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE4EE5E31A4BB78300852DC3 /* PcmDataPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE4EE6071A4BB78300852DC3 /* Build configuration list for PBXNativeTarget "PcmDataPlayer" */;
+			buildPhases = (
+				DE4EE5E01A4BB78300852DC3 /* Sources */,
+				DE4EE5E11A4BB78300852DC3 /* Frameworks */,
+				DE4EE5E21A4BB78300852DC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PcmDataPlayer;
+			productName = PcmDataPlayer;
+			productReference = DE4EE5E41A4BB78300852DC3 /* PcmDataPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE4EE5FC1A4BB78300852DC3 /* PcmDataPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE4EE60A1A4BB78300852DC3 /* Build configuration list for PBXNativeTarget "PcmDataPlayerTests" */;
+			buildPhases = (
+				DE4EE5F91A4BB78300852DC3 /* Sources */,
+				DE4EE5FA1A4BB78300852DC3 /* Frameworks */,
+				DE4EE5FB1A4BB78300852DC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE4EE5FF1A4BB78300852DC3 /* PBXTargetDependency */,
+			);
+			name = PcmDataPlayerTests;
+			productName = PcmDataPlayerTests;
+			productReference = DE4EE5FD1A4BB78300852DC3 /* PcmDataPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE4EE5DC1A4BB78300852DC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Chengyin;
+				TargetAttributes = {
+					DE4EE5E31A4BB78300852DC3 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					DE4EE5FC1A4BB78300852DC3 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = DE4EE5E31A4BB78300852DC3;
+					};
+				};
+			};
+			buildConfigurationList = DE4EE5DF1A4BB78300852DC3 /* Build configuration list for PBXProject "PcmDataPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE4EE5DB1A4BB78300852DC3;
+			productRefGroup = DE4EE5E51A4BB78300852DC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE4EE5E31A4BB78300852DC3 /* PcmDataPlayer */,
+				DE4EE5FC1A4BB78300852DC3 /* PcmDataPlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE4EE5E21A4BB78300852DC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE4EE5F31A4BB78300852DC3 /* Main.storyboard in Resources */,
+				DE4EE60E1A4BB7C000852DC3 /* pcmData in Resources */,
+				DE4EE5F51A4BB78300852DC3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE4EE5FB1A4BB78300852DC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE4EE5E01A4BB78300852DC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE4EE5F01A4BB78300852DC3 /* ViewController.m in Sources */,
+				DE4EE5ED1A4BB78300852DC3 /* AppDelegate.m in Sources */,
+				DE4EE5EA1A4BB78300852DC3 /* main.m in Sources */,
+				DE4EE6121A4BB7C800852DC3 /* AVAudioPlayer+PCM.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE4EE5F91A4BB78300852DC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE4EE6041A4BB78300852DC3 /* PcmDataPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE4EE5FF1A4BB78300852DC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE4EE5E31A4BB78300852DC3 /* PcmDataPlayer */;
+			targetProxy = DE4EE5FE1A4BB78300852DC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE4EE5F11A4BB78300852DC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE4EE5F21A4BB78300852DC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE4EE6051A4BB78300852DC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE4EE6061A4BB78300852DC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE4EE6081A4BB78300852DC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = PcmDataPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DE4EE6091A4BB78300852DC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = PcmDataPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DE4EE60B1A4BB78300852DC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PcmDataPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PcmDataPlayer.app/PcmDataPlayer";
+			};
+			name = Debug;
+		};
+		DE4EE60C1A4BB78300852DC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PcmDataPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PcmDataPlayer.app/PcmDataPlayer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE4EE5DF1A4BB78300852DC3 /* Build configuration list for PBXProject "PcmDataPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE4EE6051A4BB78300852DC3 /* Debug */,
+				DE4EE6061A4BB78300852DC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE4EE6071A4BB78300852DC3 /* Build configuration list for PBXNativeTarget "PcmDataPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE4EE6081A4BB78300852DC3 /* Debug */,
+				DE4EE6091A4BB78300852DC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE4EE60A1A4BB78300852DC3 /* Build configuration list for PBXNativeTarget "PcmDataPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE4EE60B1A4BB78300852DC3 /* Debug */,
+				DE4EE60C1A4BB78300852DC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE4EE5DC1A4BB78300852DC3 /* Project object */;
+}
