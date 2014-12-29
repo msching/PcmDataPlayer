@@ -25,7 +25,7 @@
         return nil;
     }
     
-    return [[[self class] alloc] initWithData:wav error:outError];
+    [self initWithData:wav error:outError];
 }
 
 /**
