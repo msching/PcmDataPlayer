@@ -25,7 +25,7 @@
         return nil;
     }
     
-    return [[[self class] alloc] initWithData:wav fileTypeHint:AVFileTypeWAVE error:outError];
+    return [[[self class] alloc] initWithData:wav error:outError];
 }
 
 /**
