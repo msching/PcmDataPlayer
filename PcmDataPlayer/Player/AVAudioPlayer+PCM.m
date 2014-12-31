@@ -25,7 +25,7 @@
         return nil;
     }
     
-    [self initWithData:wav error:outError];
+    return [self initWithData:wav error:outError];
 }
 
 /**
