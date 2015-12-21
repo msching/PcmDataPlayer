@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "AVAudioPlayer+PCM.h"
+#import "AVAudioPlayer+Sample.h"
 #import "NSTimer+BlocksSupport.h"
 
 @interface ViewController ()
@@ -15,9 +15,8 @@
 @private
     AVAudioPlayer *_player;
     NSTimer *_timer;
+    NSString *_path;
 }
-@property (nonatomic,strong) IBOutlet UIButton *playButton;
-@property (nonatomic,strong) IBOutlet UIButton *pauseButton;
 @property (nonatomic,strong) IBOutlet UIButton *playOrPauseButton;
 @property (nonatomic,strong) IBOutlet UISlider *progressSlider;
 @end
@@ -29,41 +28,13 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    [self createPlayer];
+    _path = [[NSBundle mainBundle] pathForResource:@"pcmData" ofType:nil];
+    _player = [AVAudioPlayer sp_createPlayer:_path];
     [self play];
 }
 
 
 #pragma mark - player
-- (AudioStreamBasicDescription)format
-{
-    AudioStreamBasicDescription format;
-    format.mFormatID = kAudioFormatLinearPCM;
-    format.mSampleRate = 44100;
-    
-    format.mBitsPerChannel = 16;
-    format.mChannelsPerFrame = 2;
-    format.mBytesPerFrame = format.mChannelsPerFrame * (format.mBitsPerChannel / 8);
-    
-    format.mFramesPerPacket = 1;
-    format.mBytesPerPacket = format.mFramesPerPacket * format.mBytesPerFrame;
-    
-    format.mFormatFlags = kLinearPCMFormatFlagIsSignedInteger | kLinearPCMFormatFlagIsPacked;
-    
-    return format;
-}
-
-
-- (void)createPlayer
-{
-    NSString *pcmFilePath = [[NSBundle mainBundle] pathForResource:@"pcmData" ofType:nil];
-    NSData *pcmData = [NSData dataWithContentsOfFile:pcmFilePath];
-    
-    NSError *error = nil;
-    _player = [[AVAudioPlayer alloc] initWithPcmData:pcmData pcmFormat:[self format] error:&error];
-    _player.numberOfLoops = -1;
-}
-
 - (void)play
 {
     [_player play];

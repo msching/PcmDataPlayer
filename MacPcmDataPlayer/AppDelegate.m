@@ -23,4 +23,10 @@
     // Insert code here to tear down your application
 }
 
+- (BOOL)applicationShouldHandleReopen:(NSApplication *)theApplication hasVisibleWindows:(BOOL)flag
+{
+    [self.window makeKeyAndOrderFront:NSApp];
+    return YES;
+}
+
 @end

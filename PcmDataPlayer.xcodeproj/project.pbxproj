@@ -23,6 +23,9 @@
 		DE2EB3891C27DEEB0037F49A /* pcmData in Resources */ = {isa = PBXBuildFile; fileRef = DE2EB3321C27D95F0037F49A /* pcmData */; };
 		DE2EB38D1C27E0D50037F49A /* NSTimer+BlocksSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2EB38C1C27E0D50037F49A /* NSTimer+BlocksSupport.m */; };
 		DE2EB38E1C27E0D50037F49A /* NSTimer+BlocksSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2EB38C1C27E0D50037F49A /* NSTimer+BlocksSupport.m */; };
+		DE2EB3911C27EAAD0037F49A /* Window.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2EB3901C27EAAD0037F49A /* Window.m */; };
+		DE2EB3941C27ECB70037F49A /* AVAudioPlayer+Sample.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2EB3931C27ECB70037F49A /* AVAudioPlayer+Sample.m */; };
+		DE2EB3971C28009B0037F49A /* DragView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2EB3961C28009B0037F49A /* DragView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +51,12 @@
 		DE2EB3821C27DE360037F49A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE2EB38B1C27E0D50037F49A /* NSTimer+BlocksSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+BlocksSupport.h"; sourceTree = "<group>"; };
 		DE2EB38C1C27E0D50037F49A /* NSTimer+BlocksSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+BlocksSupport.m"; sourceTree = "<group>"; };
+		DE2EB38F1C27EAAD0037F49A /* Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Window.h; sourceTree = "<group>"; };
+		DE2EB3901C27EAAD0037F49A /* Window.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Window.m; sourceTree = "<group>"; };
+		DE2EB3921C27ECB70037F49A /* AVAudioPlayer+Sample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AVAudioPlayer+Sample.h"; sourceTree = "<group>"; };
+		DE2EB3931C27ECB70037F49A /* AVAudioPlayer+Sample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AVAudioPlayer+Sample.m"; sourceTree = "<group>"; };
+		DE2EB3951C28009B0037F49A /* DragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragView.h; sourceTree = "<group>"; };
+		DE2EB3961C28009B0037F49A /* DragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +80,10 @@
 		DE2EB31E1C27D9330037F49A /* MacPcmDataPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				DE2EB38F1C27EAAD0037F49A /* Window.h */,
+				DE2EB3901C27EAAD0037F49A /* Window.m */,
+				DE2EB3951C28009B0037F49A /* DragView.h */,
+				DE2EB3961C28009B0037F49A /* DragView.m */,
 				DE2EB31F1C27D9330037F49A /* AppDelegate.h */,
 				DE2EB3201C27D9330037F49A /* AppDelegate.m */,
 				DE2EB3251C27D9330037F49A /* Assets.xcassets */,
@@ -94,6 +107,8 @@
 			children = (
 				DE2EB32F1C27D95F0037F49A /* AVAudioPlayer+PCM.h */,
 				DE2EB3301C27D95F0037F49A /* AVAudioPlayer+PCM.m */,
+				DE2EB3921C27ECB70037F49A /* AVAudioPlayer+Sample.h */,
+				DE2EB3931C27ECB70037F49A /* AVAudioPlayer+Sample.m */,
 			);
 			path = Player;
 			sourceTree = "<group>";
@@ -265,7 +280,10 @@
 				DE2EB3861C27DEC20037F49A /* AVAudioPlayer+PCM.m in Sources */,
 				DE2EB3241C27D9330037F49A /* main.m in Sources */,
 				DE2EB38E1C27E0D50037F49A /* NSTimer+BlocksSupport.m in Sources */,
+				DE2EB3971C28009B0037F49A /* DragView.m in Sources */,
 				DE2EB3211C27D9330037F49A /* AppDelegate.m in Sources */,
+				DE2EB3941C27ECB70037F49A /* AVAudioPlayer+Sample.m in Sources */,
+				DE2EB3911C27EAAD0037F49A /* Window.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +492,7 @@
 				DE2EB3851C27DE360037F49A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE4EE5DF1A4BB78300852DC3 /* Build configuration list for PBXProject "PcmDataPlayer" */ = {
 			isa = XCConfigurationList;
