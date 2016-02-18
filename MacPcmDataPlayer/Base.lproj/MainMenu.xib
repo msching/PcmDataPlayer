@@ -678,7 +678,7 @@
                 <subviews>
                     <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jD3-uq-erG">
                         <rect key="frame" x="200" y="298" width="81" height="32"/>
-                        <buttonCell key="cell" type="push" title="Pause" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="zwO-5C-4kK">
+                        <buttonCell key="cell" type="push" title="Play" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="zwO-5C-4kK">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
@@ -697,7 +697,7 @@
                         </connections>
                     </button>
                     <slider verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hXh-cw-7H1">
-                        <rect key="frame" x="18" y="202" width="444" height="20"/>
+                        <rect key="frame" x="18" y="202" width="444" height="21"/>
                         <sliderCell key="cell" state="on" alignment="left" maxValue="1" tickMarkPosition="above" sliderType="linear" id="oDM-1n-hst"/>
                         <connections>
                             <action selector="seek:" target="QvC-M9-y7g" id="0O5-Bi-9pn"/>
